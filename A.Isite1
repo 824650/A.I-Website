@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI Website</title>
+	<style>
+    body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+}
+
+nav ul li a {
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+	color: #666;
+}
+
+#hero {
+	background-image: url('https://images.unsplash.com/photo-1593642634311-3e3b531a0b6c');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#hero h1 {
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+#hero p {
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.container h2 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.container p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px 0;
+	padding: 0;
+	text-align: justify;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+		height: auto;
+	}
+	
+	nav ul li {
+		margin-bottom: 10px;
+	}
+	
+	#hero {
+		height: 400px;
+	}
+	
+	#hero h1 {
+		font-size: 48px;
+	}
+	
+	#hero p {
+		font-size: 18px;
+	}
+	
+	.container {
+		padding: 30px 20px;
+	}
+	
+	.container h2 {
+		font-size: 24px;
+	}
+	
+	.container p {
+		font-size: 16px;
+	}
+}
+
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#what-is-ai">What is AI?</a></li>
+			<li><a href="#types-of-ai">Types of AI</a></li>
+			<li><a href="#applications-of-ai">Applications of AI</a></li>
+			<li><a href="#future-of-ai">Future of AI</a></li>
+		</ul>
+	</nav>
+
+	<section id="hero">
+		<h1>AI Website</h1>
+		<p>Explore the exciting world of Artificial Intelligence</p>
+	</section>
+
+	<section id="what-is-ai">
+		<div class="container">
+			<h2>What is AI?</h2>
+			<p>Artificial Intelligence (AI) is the ability of machines to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI is achieved through machine learning, which involves training machines with large amounts of data to identify patterns and make predictions.</p>
+		</div>
+	</section>
+
+	<section id="types-of-ai">
+		<div class="container">
+			<h2>Types of AI</h2>
+			<p>There are three main types of AI: narrow or weak AI, general AI, and super AI. Narrow AI is designed to perform a specific task, such as playing chess or recognizing faces. General AI can perform any intellectual task that a human can do. Super AI is hypothetical and refers to AI that is smarter than humans and can solve problems that humans cannot.</p>
+		</div>
+	</section>
+
+	<section id="applications-of-ai">
+		<div class="container">
+			<h2>Applications of AI</h2>
+			<p>AI has a wide range of applications, including healthcare, finance, transportation, and entertainment. Some examples of AI applications include self-driving cars, speech recognition, personalized recommendations, and medical diagnosis.</p>
+		</div>
+	</section>
+
+	<section id="future-of-ai">
+		<div class="container">
+			<h2>Future of AI</h2>
+			<p>The future of AI is exciting and full of possibilities. With the continued development of AI technology, we can expect to see more advanced AI applications, such as fully autonomous robots and more sophisticated natural language processing. However, there are also concerns about the ethical implications of AI and its impact on jobs and society as a whole.</p>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 AI Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
